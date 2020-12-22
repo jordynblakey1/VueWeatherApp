@@ -21,7 +21,7 @@ export default {
   }, 
 
   mounted() {
-    axios.get('https://api.openweathermap.org/data/2.5/weather?q=Chicago&units=imperial&appid=811299a5ecb45e45a50be5278b9f5ee2').
+    axios.get('https://api.openweathermap.org/data/2.5/weather?q=Chicago&units=imperial&appid=*******************').
     then(response => (this.weather = response.data.main.temp));
     this.cityName = this.weather.main.temp; 
    
